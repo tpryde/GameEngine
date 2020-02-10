@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{44b5598e-8e2a-436f-89c5-73b82f39c4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GL">
+      <UniqueIdentifier>{a9cefec1-0f6a-4c1a-a533-5bca7165e99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{0baef7bc-b831-442f-90b7-8f3efa6206d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LodePNG">
+      <UniqueIdentifier>{2ce2e73d-66ae-433c-88b8-3cbbec87b2e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GL\GLExtensions.cpp">
+      <Filter>Source Files\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LodePNG\lodepng.cpp">
+      <Filter>Source Files\LodePNG</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GameCore.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CommonHeader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Helpers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\glext.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\wglext.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\GLExtensions.h">
+      <Filter>Source Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ShaderProgram.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LodePNG\lodepng.h">
+      <Filter>Source Files\LodePNG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Shaders\simple.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\simple.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
